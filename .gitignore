@@ -1,0 +1,9 @@
+
+# System & Temporary Files
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Large Files (>50MB) Ignored
+shape_predictor_68_face_landmarks_Project_12_Drowsieeness detection.dat
