@@ -1,9 +1,16 @@
-
-# System & Temporary Files
-.DS_Store
-.ipynb_checkpoints/
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# Large Files (>50MB) Ignored
-shape_predictor_68_face_landmarks_Project_12_Drowsieeness detection.dat
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local configuration and environment
+.env
+app.log
